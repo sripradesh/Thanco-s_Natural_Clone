@@ -1,1 +1,1 @@
-# Thanco-s_Natural_Clone
+# Cloning app for develloping my html and css skills
