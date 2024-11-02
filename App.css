@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+nav {
+    background-color: transparent;
+    position: fixed;
+    height: 85px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.09);
+    z-index: 1;
+}
+
+.nav-links {
+    font-size: 18px;
+    font-weight: 550;
+    padding: 35px 325px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+
+.styled_select {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    width: 100px;
+    border: none;
+    background: transparent;
+}
+
+.styled_select option {
+    color: white;
+    background-color: black;
+}
+
+
+.nav-links a:focus {
+    color: #e06464;
+}
+
+.bg_banner1 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -53px;
+}
+
+.bg_banner2 img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -60px;
+}
+
