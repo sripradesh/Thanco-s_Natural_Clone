@@ -62,30 +62,75 @@ nav a {
     color: #e06464;
 }
 
+
+/* hero section */
+
 .bg_banner1 img {
     height: 100%;
     width: 100%;
     position: relative;
 }
 
-.bg_banner2 img {
-    height: 790px;
-    width: 100%;
-    position: relative;
+
+/* article section */
+
+.article-container {
+    height: 780px;
+    display: flex;
+    background-image: url('./assets/Thancos-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg_banner3 img {
-    height: 785px;
-    width: 100%;
-    position: relative;
+.article-portion1{
+    margin: 100px 90px;
 }
 
-.bg_banner4 img {
-    height: 500px;
-    width: 100%;
-    position: relative;
+.article-portion1 img{
+    margin: 0px 310px;
+    width: 42px;
+    height: 45px;
 }
 
+.article-title1{
+    margin: 0px 300px;
+    color: #A50018;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 24px;
+}
+
+.article-container-p1{
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 160px;
+}
+
+.article-portion2{
+    margin: 100px 190px;
+}
+
+.article-portion2 img {
+    margin: 0px 150px;
+    width: 42px;
+    height: 50px;
+}
+
+.article-title2{
+    margin: 0px 140px;
+    color: #A50018;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 24px;
+}
+
+.article-container-p2 {
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 0px;
+}
 
 /* main footer */
 
@@ -96,25 +141,25 @@ nav a {
     height: 320px;
 }
 
-.footer-content1{
+.footer-content1 {
     margin: 50px 0px;
     position: relative;
     right: 100px;
 }
 
-.footer-content2{
+.footer-content2 {
     margin: 60px 50px;
     position: relative;
     right: 80px;
 }
 
-.footer-image img{
+.footer-image img {
     margin: 50px 0px;
     position: relative;
-    left:10px;
+    left: 10px;
 }
 
-.footer-container p{
+.footer-container p {
     font-family: 'MyCustomFont', cursive;
     color: white;
     font-size: 20px;
@@ -122,40 +167,129 @@ nav a {
     bottom: 20px;
 }
 
-.footer-title1{
-    
+.footer-title1 {
+
     color: #7CDA24;
     font-family: 'MyCustomFont', cursive;
     font-size: 20px;
 }
 
-.footer-title2{
+.footer-title2 {
     color: #ffff;
     font-family: 'MyCustomFont', cursive;
     font-size: 20px;
     font-weight: bold;
 }
 
-.footer-image{
-    margin:20px 0px;
-}
-
-.hero-portions{
- display: flex;
- justify-content: center;
-}
-
-.hero-portion1 img{
-    width: 40px;
-    height: 50px;
+.footer-image {
+    margin: 20px 0px;
 }
 
 
-.hero-portion2 img{
-    width: 40px;
-    height: 50px;
+.bg_banner3 img {
+    height: 780px;
+    width: 100%;
+}
+
+.bg_banner4 img {
+    height: 500px;
+    width: 100%;
+}
+
+.article-container2{
+    display: flex;
+    background-image:  url('./assets/Thancos-Flav-bg.jpg');
+    height: 780px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.article-portion3{
+    margin: 100px 0px;
+}
+
+.article-portion3 img{
+    height: 600px;
+    width: 330px;
+}
+
+.article-title3{
+    color: #A50018;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 24px;
+    position: relative;
+    bottom: 520px;
+    left: 140px;
+}
+
+.article-container2-p1{
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 150px;
+    position: relative;
+    bottom: 550px;
+    right: 130px;
+}
+
+.article-portion4{
+    margin: 100px 0px;
+}
+
+.article-portion4 img{
+    height: 620px;
+    width: 330px;
+}
+
+.article-title4{
+    color: #A50018;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 24px;
+    position: relative;
+    bottom: 520px;
+    left: 140px;
+}
+
+.article-container2-p2{
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 100px;
+    position: relative;
+    bottom: 550px;
+    right: 50px;
+}
+
+.article-portion5{
+    margin: 100px 0px;
+}
+
+.article-portion5 img{
+    height: 600px;
+    width: 330px;
+}
+
+.article-title5{
+    color: #A50018;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 24px;
+    position: relative;
+    bottom: 500px;
+    margin: 40px 100px;
+    position: relative;
+    bottom: 550px;
 }
 
 
-
-
+.article-container2-p3{
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 150px;
+    position: relative;
+    bottom: 550px;
+    right: 110px;
+}
