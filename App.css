@@ -8,16 +8,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-padding-bottom: 10px;
-color: #333;
-font-weight: 500;
-line-height: 1em;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
 }
 
 @font-face {
     font-family: 'MyCustomFont';
     src: url('fonts/satisfy/Satisfy-Regular.ttf') format('woff2');
-  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 nav {
     background-color: transparent;
@@ -72,7 +74,7 @@ nav a {
 }
 
 
-/* article section */
+/* article section1 */
 
 .article-container {
     height: 780px;
@@ -82,33 +84,33 @@ nav a {
     background-repeat: no-repeat;
 }
 
-.article-portion1{
-    margin: 100px 90px;
+.article-portion1 {
+    margin: 100px 50px;
 }
 
-.article-portion1 img{
+.article-portion1 img {
     margin: 0px 310px;
     width: 42px;
     height: 45px;
 }
 
-.article-title1{
+.article-title1 {
     margin: 0px 300px;
     color: #A50018;
     font-family: 'MyCustomFont', cursive;
     font-size: 24px;
 }
 
-.article-container-p1{
+.article-container-p1 {
     color: white;
     font-family: 'MyCustomFont', cursive;
     font-size: 22px;
     text-align: justify;
-    margin: 0px 160px;
+    margin: 0px 170px;
 }
 
-.article-portion2{
-    margin: 100px 190px;
+.article-portion2 {
+    margin: 100px 200px;
 }
 
 .article-portion2 img {
@@ -117,7 +119,7 @@ nav a {
     height: 50px;
 }
 
-.article-title2{
+.article-title2 {
     margin: 0px 140px;
     color: #A50018;
     font-family: 'MyCustomFont', cursive;
@@ -129,8 +131,123 @@ nav a {
     font-family: 'MyCustomFont', cursive;
     font-size: 22px;
     text-align: justify;
-    margin: 0px 0px;
+    margin: 0px 10px;
 }
+
+.article-image3 {
+    height: 140px;
+    width: 600px;
+    position: relative;
+    top: 540px;
+    right: 400px;
+
+}
+
+/* article section2 */
+
+.article-container2 {
+    display: flex;
+    background-image: url('./assets/Thancos-Flav-bg.jpg');
+    height: 484px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+
+.article-item {
+    text-align: center;
+    color: white;
+}
+
+
+#img1 {
+    height: 560px;
+    width: 325px;
+    position: relative;
+    top: -45px;
+    left: 10px;
+}
+
+.article-title3 {
+    color: #ffffff;
+    font-family: 'Satisfy', cursive;
+    font-size: 27px;
+    position: relative;
+    bottom: 530px;
+    left: 15px
+}
+
+.article-p1 {
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 21px;
+    text-align: justify;
+    margin: -560px 70px;
+    position: relative;
+    left: 10px;
+}
+
+#img2 {
+    height: 575px;
+    width: 320px;
+    position: relative;
+    top: -45px;
+    left: 10px;
+}
+
+.article-title4 {
+    color: #ffffff;
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
+    position: relative;
+    bottom: 520px;
+    left: 10px;
+}
+
+.article-p2 {
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 21px;
+    text-align: justify;
+    margin: -550px 10px;
+    position: relative;
+    left: 10px;
+}
+
+#img3 {
+    height: 560px;
+    width: 320px;
+    position: relative;
+    top: -45px;
+}
+
+.article-title5 {
+    color: #ffffff;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    position: relative;
+    bottom: 530px;
+}
+
+.article-p3 {
+    color: white;
+    font-family: 'MyCustomFont', cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin: -555px 80px;
+    position: relative;
+}
+
+
+/* article section3 */
+
+.article-item3 {
+    background-image: url('./assets/Thancos-1.jpg');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 /* main footer */
 
@@ -183,113 +300,4 @@ nav a {
 
 .footer-image {
     margin: 20px 0px;
-}
-
-
-.bg_banner3 img {
-    height: 780px;
-    width: 100%;
-}
-
-.bg_banner4 img {
-    height: 500px;
-    width: 100%;
-}
-
-.article-container2{
-    display: flex;
-    background-image:  url('./assets/Thancos-Flav-bg.jpg');
-    height: 780px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.article-portion3{
-    margin: 100px 0px;
-}
-
-.article-portion3 img{
-    height: 600px;
-    width: 330px;
-}
-
-.article-title3{
-    color: #A50018;
-    font-family: 'MyCustomFont', cursive;
-    font-size: 24px;
-    position: relative;
-    bottom: 520px;
-    left: 140px;
-}
-
-.article-container2-p1{
-    color: white;
-    font-family: 'MyCustomFont', cursive;
-    font-size: 22px;
-    text-align: justify;
-    margin: 0px 150px;
-    position: relative;
-    bottom: 550px;
-    right: 130px;
-}
-
-.article-portion4{
-    margin: 100px 0px;
-}
-
-.article-portion4 img{
-    height: 620px;
-    width: 330px;
-}
-
-.article-title4{
-    color: #A50018;
-    font-family: 'MyCustomFont', cursive;
-    font-size: 24px;
-    position: relative;
-    bottom: 520px;
-    left: 140px;
-}
-
-.article-container2-p2{
-    color: white;
-    font-family: 'MyCustomFont', cursive;
-    font-size: 22px;
-    text-align: justify;
-    margin: 0px 100px;
-    position: relative;
-    bottom: 550px;
-    right: 50px;
-}
-
-.article-portion5{
-    margin: 100px 0px;
-}
-
-.article-portion5 img{
-    height: 600px;
-    width: 330px;
-}
-
-.article-title5{
-    color: #A50018;
-    font-family: 'MyCustomFont', cursive;
-    font-size: 24px;
-    position: relative;
-    bottom: 500px;
-    margin: 40px 100px;
-    position: relative;
-    bottom: 550px;
-}
-
-
-.article-container2-p3{
-    color: white;
-    font-family: 'MyCustomFont', cursive;
-    font-size: 22px;
-    text-align: justify;
-    margin: 0px 150px;
-    position: relative;
-    bottom: 550px;
-    right: 110px;
 }
